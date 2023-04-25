@@ -1,0 +1,451 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+.body{
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto Mono', monospace;
+	background-color: rgb(24, 25, 27);
+	color: #eee;
+	font-size: 1em;
+}
+
+.img{
+	max-width: 200px;
+	width: 150px;
+	height: 50px;
+}
+
+#staticSystem{
+	height: 25px
+}
+
+#lorentzFactorIcon{
+	width: 25px;
+	height: 25px;
+}
+
+.header{
+	margin: auto;
+	text-align: center;
+	display: block;
+	max-width: 1080px;
+	color: #fff;
+}
+
+.header-background{
+	margin: auto;
+	text-align: center;
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	max-width: 1080px;
+	overflow-x: hidden;
+	z-index: -99;
+	outline: 5px outset;
+}
+
+.title{
+	font-size: 5em;
+}
+
+.subtitle{
+	font-size: 1.5em;
+}
+
+.main{
+	margin: auto;
+	text-align: justify;
+	display: block;
+	max-width: 1080px;
+	margin-top: 100px;
+}
+
+.section{
+	margin-top: 50px;
+}
+
+.p{
+	margin-top: 32px;
+}
+
+.footer{
+	position: absolute;
+	right: 0;
+	margin-right: 10px;
+	margin-top: 50px;
+}
+
+.footer a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.calculator{
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-top: 25px;
+}
+
+#calculator-img{
+	max-width: 400px;
+	width: 250px;
+	height: 250px;
+}
+
+
+#calculator-background{
+	margin: auto;
+	text-align: center;
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 325px;
+	max-width: 1080px;
+	overflow-x: hidden;
+	z-index: -99;
+}
+
+.slider{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+
+#slider-img{
+	max-width: 250px;
+	max-height: 250px;
+	width: 250px;
+	height: 250px;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 5px 5px 10px #000;
+	margin-top: 8px;
+}
+
+@media only screen and (max-width: 1715px){
+	#slider-img{
+	max-width: 200px;
+	max-height: 200px;
+	width: 200px;
+	height: 200px;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 5px 5px 10px #000;
+	}
+
+}
+
+@media only screen and (max-width: 1375px){
+		.slider{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	flex-wrap: wrap;
+	}
+	#slider-img{
+	max-width: 175px;
+	max-height: 175px;
+	width: 157px;
+	height: 157px;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 5px 5px 10px #000;
+	}
+
+}
+
+@media only screen and (max-width: 1200px){
+
+
+	#slider-img{
+	max-width: 175px;
+	max-height: 175px;
+	width: 157px;
+	height: 157px;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 5px 5px 10px #000;
+	}
+
+}
+
+@media only screen and (max-width: 1100px){
+	.header{
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	.main{
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	#slider-img{
+	max-width: 150px;
+	max-height: 150px;
+	width: 150px;
+	height: 150px;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 5px 5px 10px #000;
+	}
+
+}
+
+@media only screen and (max-width: 550px){
+	.main{
+		text-align: left;
+	}
+	.title{
+		font-size: 4em;
+	}
+
+	.subtitle{
+		font-size: 1.3em;
+	}
+}
+
+@media only screen and (max-width: 450px){
+
+	#calculator-background{
+		margin: auto;
+		text-align: center;
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 350px;
+		max-width: 1080px;
+		overflow-x: hidden;
+		z-index: -99;
+	}
+
+	.input-container{
+		margin: auto;
+		text-align: center;
+		display: flex;
+		justify-content: space-around;
+		font-size: 0.8em;
+	}
+	.hoursField{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		max-width: 100px;
+	}
+	.relativeTimeField{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		max-width: 100px;
+	}
+
+}
+
+@media only screen and (max-width: 378px){
+
+	.title{
+		font-size: 2em;
+	}
+
+	.subtitle{
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 335px){
+
+	#slider-img{
+	max-width: 75vw;
+	max-height: 75vw;
+	width: 75vw;
+	height: 75vw;
+	margin-left: 0px;
+	margin-right: 0x;
+	box-shadow: 5px 5px 10px #000;
+	}
+}
+
+@media only screen and (max-width: 250px){
+	#calculator-img{
+		max-width: 150px;
+	}
+	.footer{
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (max-width: 225px){
+	.title{
+		font-size: 1.9em;
+	}
+
+	.subtitle{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 217px){
+	.title{
+		font-size: 1.8em;
+	}
+
+	.subtitle{
+		font-size: 1em;
+	}
+	.body{
+		font-size: 0.9em;
+	}
+	#calculator-img{
+		max-width: 125px;
+	}
+	#calculator-background{
+		margin: auto;
+		text-align: center;
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 400px;
+		max-width: 1080px;
+		overflow-x: hidden;
+		z-index: -99;
+	}
+	.input-container{
+		margin: auto;
+		margin-left: 25%;
+		text-align: center;
+		display: block;
+		font-size: 0.8em;
+	}
+	.hoursField{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		max-width: 100px;
+	}
+	.relativeTimeField{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		max-width: 100px;
+	}
+	.footer{
+		font-size: 0.5em;
+	}
+
+}
+
+@media only screen and (max-width: 150px){
+	.title{
+		font-size: 1.6em;
+	}
+
+	.subtitle{
+		font-size: 0.9em;
+	}
+	.main{
+		font-size: 0.7em;
+	}
+	.footer{
+		font-size: 0.5em;
+	}
+	.img{
+		max-width: 100px;
+		width: 150px;
+		height: 50px;
+	}
+
+	#staticSystem{
+		height: 25px
+	}
+
+	#lorentzFactorIcon{
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media only screen and (max-width: 125px){
+	.title{
+		font-size: 1.2em;
+	}
+
+	.subtitle{
+		font-size: 0.8em;
+	}
+	.main{
+		font-size: 0.7em;
+	}
+	.footer{
+		font-size: 0.7em;
+	}
+	.img{
+		max-width: 100px;
+		width: 150px;
+		height: 50px;
+	}
+
+	#staticSystem{
+		height: 25px
+	}
+
+	#lorentzFactorIcon{
+		width: 15px;
+		height: 15px;
+	}
+	#calculator-img{
+		max-width: 100px;
+	}
+	.footer{
+		font-size: 0.2em;
+	}
+}
+
+@media only screen and (max-width: 95px){
+	.title{
+		font-size: 1em;
+	}
+
+	.subtitle{
+		font-size: 0.7em;
+	}
+	.main{
+		font-size: 0.6em;
+	}
+	.footer{
+		font-size: 0.1em;
+	}
+	.img{
+		max-width: 75px;
+		width: 150px;
+		height: 50px;
+	}
+
+	#staticSystem{
+		height: 20px
+	}
+
+	#lorentzFactorIcon{
+		width: 15px;
+		height: 15px;
+	}
+	#calculator-img{
+		max-width: 50px;
+		height: 50px;
+	}
+	#calculator-background{
+		margin: auto;
+		text-align: center;
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 200px;
+		max-width: 1080px;
+		overflow-x: hidden;
+		z-index: -99;
+	}
+}
